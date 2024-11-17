@@ -1,0 +1,47 @@
+ General styles 
+body {
+    margin 0;
+    font-family Arial, sans-serif;
+    background-color #1e1e1e;
+    color #ffffff;
+    display flex;
+    justify-content center;
+    align-items center;
+    height 100vh;
+}
+
+ Container 
+.container {
+    display flex;
+    gap 20px;
+}
+
+ Card styles 
+.card {
+    background-color #2b2b2b;
+    border-radius 15px;
+    box-shadow 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding 20px;
+    width 250px;
+    text-align center;
+}
+
+ Heading 
+.card h2 {
+    margin-bottom 15px;
+    font-size 20px;
+}
+
+ Links 
+.card a {
+    display block;
+    margin 10px 0;
+    color #61dafb;
+    text-decoration none;
+    font-weight bold;
+    transition color 0.3s;
+}
+
+.card ahover {
+    color #ffffff;
+}
